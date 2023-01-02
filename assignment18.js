@@ -1,0 +1,12 @@
+let places = ["Germany","Turkey","London","America","Pakistan"];
+console.log(`Original Order : ${places}`)
+console.log(`Alphabetical Order : ${[...places].sort()}`)
+console.log(`Original Order : ${places}`)
+console.log(`Reverse Alphabetical Order : ${[...places].sort().reverse()}`)
+console.log(`Original Order : ${places}`)
+console.log(`Reverse Order : ${places.reverse()}`)
+console.log(`Original Order reversed again : ${places.reverse()}`)
+console.log(`Alphabetical sorted order : ${places.sort()}`)
+console.log(`Original Order : ${places}`)
+console.log(`Reverse alphabetical order sorted : ${places.sort().reverse()}`)
+console.log(`Original Order : ${places}`)
